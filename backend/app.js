@@ -3,6 +3,6 @@ const router=require('./routes/user.routes')
 
 const app=express()
 
-app.use(router)
+app.use("/api/v1",router)
 
 module.exports=app

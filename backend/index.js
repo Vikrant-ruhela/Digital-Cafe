@@ -1,5 +1,4 @@
-require('dotenv').config()
-console.log(process.env.MONGODB_URI)
+require('dotenv').config() 
 const express=require('express')
 const app=require('./app')
 const connectToDb=require('./config/db')
@@ -7,6 +6,6 @@ const connectToDb=require('./config/db')
 connectToDb()
 
 
-app.listen(4000,()=>{
+app.listen(3000,()=>{
     console.log("server is started")
 })
