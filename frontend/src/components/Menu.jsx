@@ -9,11 +9,11 @@ import { motion } from 'framer-motion'
 
 
 const Menu = () => {
-    
-    const [data, setData]=useState()
-    
 
-     
+    const [data, setData] = useState([])
+ 
+
+
 
 
     return (
@@ -45,7 +45,7 @@ const Menu = () => {
                                 </div>
                                 <div className="flex text-center">
                                     <motion.button initial={{ scale: 1 }} whileTap={{ scale: 1.1 }} className="text-3xl text-white bg-red-500 p-3 rounded-full text-center"
-                                     >
+                                    >
                                         <FaCartPlus />
                                     </motion.button>
                                 </div>
